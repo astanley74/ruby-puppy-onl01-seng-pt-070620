@@ -10,7 +10,7 @@ class Dog
   end
     
   def self.print_all
-    @@all.each do 
+    @@all.each { |dog| puts dog
   end
   
   def initialize(name)
