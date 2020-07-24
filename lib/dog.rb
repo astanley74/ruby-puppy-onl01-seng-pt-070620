@@ -2,7 +2,7 @@ class Dog
   @@all = []
   
   def self.all
-    self
+    @name
   end
     
   
